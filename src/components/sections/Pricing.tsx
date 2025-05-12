@@ -49,10 +49,10 @@ const Pricing: React.FC = () => {
               <h3 className="mb-4 text-lg font-semibold text-gray-900">Pricing Tiers</h3>
               <div className="space-y-4">
                 <div className="overflow-hidden border border-gray-200 rounded-lg">
-                  <div className="px-4 py-3 bg-blue-800 text-white">
+                  {/* <div className="px-4 py-3 bg-blue-800 text-white">
                     <h4 className="text-base font-medium">Starter</h4>
-                  </div>
-                  <div className="p-4">
+                  </div> */}
+                  {/* <div className="p-4">
                     <div className="mb-4">
                       <p className="text-2xl font-bold text-gray-900">$999<span className="text-sm font-normal text-gray-500">/month</span></p>
                       <p className="text-sm text-gray-600">Up to 50 vehicles</p>
@@ -62,10 +62,10 @@ const Pricing: React.FC = () => {
                       <li className="text-sm text-gray-700">Standard reports</li>
                       <li className="text-sm text-gray-700">Email support</li>
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
                 
-                <div className="overflow-hidden border-2 border-blue-600 rounded-lg">
+                {/* <div className="overflow-hidden border-2 border-blue-600 rounded-lg">
                   <div className="px-4 py-3 bg-blue-800 text-white">
                     <h4 className="text-base font-medium">Professional</h4>
                     <span className="px-2 py-0.5 text-xs bg-amber-400 text-amber-900 rounded-full">POPULAR</span>
@@ -82,8 +82,8 @@ const Pricing: React.FC = () => {
                       <li className="text-sm text-gray-700">API rate limit increase</li>
                     </ul>
                   </div>
-                </div>
-                
+                </div> */}
+{/*                 
                 <div className="overflow-hidden border border-gray-200 rounded-lg">
                   <div className="px-4 py-3 bg-blue-800 text-white">
                     <h4 className="text-base font-medium">Enterprise</h4>
@@ -100,7 +100,7 @@ const Pricing: React.FC = () => {
                       <li className="text-sm text-gray-700">SLA guarantees</li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
